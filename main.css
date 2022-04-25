@@ -1,0 +1,293 @@
+.home-contenedor{
+    background-image: 
+    background-size: cover;
+    
+}
+a{
+    color: white;
+}
+a:hover{
+    color: black;
+} 
+a:active{
+    color: red;
+}
+
+
+.home-header{
+    text-align: center;
+    background-color:bisque ;
+    height: 100px;
+    font-size: 45px;
+}
+
+.home-nav{
+    height: 100px;
+    background-color:black ;
+
+}
+.home-nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 25px 30px;
+    padding: 20px;
+
+
+}
+.home-nav li{
+    color: grey;
+    border: solid 1px wheat ;
+    background-color:black ;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+    
+}
+.home-nav li:hover{
+    background-color:darkred;
+    color: white;
+    border: solid white;
+    text-decoration: none;
+
+}
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+.home-main{
+    background-color: wheat ;
+    
+}
+
+.home-main-section{
+   
+    width: 1650px;
+    height: 900px;
+    background-image: url(MULTIMEDIA/skate-header.avif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+}
+.home-main-section-div1{
+
+    font-size: 80PX;
+    color: white;
+    text-align: left;
+    padding: 100px;
+    
+
+}
+.home-main-section-div2 ul{
+    color: white;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    
+}
+    .home-main-section-div2 li{
+        border: solid  white;
+        width: 30vh;
+        
+       }
+
+
+    .home-aside{
+        height: 800px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+        border: 20px 40px;
+        justify-content: space-evenly;
+        text-decoration: overline solid 3px;
+        color: white;
+    }
+
+    .home-aside-div1{
+        transform: scale(2px);
+    }
+
+    .home-aside-div1 img{
+        height: 500px;
+        width: 500px;
+       
+    }
+    .home-aside-div1:hover{
+        transform: scale(2px);
+     ;
+    }
+
+    .home-aside-div2 img{
+        height: 150px;
+        width: 200px;
+    }
+
+    .home-footer{
+        display: flex;
+        flex-direction: column;
+        
+        background-color: black;
+        text-align: center;
+      
+    }
+    .home-footer h2{
+        font-size: 50px;
+        color: lemonchiffon;
+        text-decoration: underline;
+
+    }
+    .home-footer p{
+        font-size: 18px;
+        color: white;
+    }
+
+   
+
+    }
+    .home-footer:hover{
+        font-weight: 300;
+            background-color: red;
+            font-size: 50px;
+            
+    }
+    .contenedor-hombre{
+        font-style: initial;
+        grid-template-columns: 
+        "header nav"
+        "main main"
+        "aside aside"
+        "footer footer";
+        grid-template-rows: 1fr 3fr;
+    }   
+
+    .hombre-header{
+        background-image: url(MULTIMEDIA/header-hombre.jpg);
+        height: 800px;
+        background-size: cover;
+        display:flex ;
+        flex-direction: row;
+        color: bisque;
+        grid-area: header;
+
+        
+    }
+    .hombre-header h1{
+        font-size: 100px;
+        text-decoration: underline 1px;
+        margin: 40px 60px;
+    }
+    .hombre-header h2{
+        font-size: 80px;
+        margin : 150px 300px;
+        color: black;
+        text-decoration: underline ;
+    }
+
+    .hombre-nav{
+        
+        grid-area: nav;
+
+    }
+    .hombre-nav ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-evenly;
+        
+    }
+    .hombre-nav li{
+        padding: 10px;
+        margin: 10px;
+        border: solid ;
+        background-color: black;
+    }
+
+    .hombre-main{
+        grid-area: main;
+
+    }
+
+    .hombre-aside{
+        grid-area: aside;
+    }
+    .hombre-footer{
+        grid-area: footer;
+    }
+
+    .hombre-header div ul{
+        font-size: 25px;
+        list-style: none;
+       
+        
+        
+    }
+    .hombre-header div li{
+        padding: 10px;
+        
+    }
+    .hombre-main{
+        background-color:bisque ;
+        display: flex;
+        flex-direction: column;
+        border: solid 2px;
+    }
+
+    .hombre-main-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 50px;
+        border: solid 2px;
+    }
+    .div-prendas-imagenes{
+        height: 450px;
+        width: 400px;
+        margin: 20px;
+   
+        
+     
+    }
+    .div-prendas{
+        text-align: center;
+    }
+     
+        
+    .hombre-aside{
+        color: beige;
+        background-color: darkgray;
+        border: none;
+        
+        
+    }
+    .hombre-aside ul{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: space-around;
+    }
+    .hombre-aside li{
+        margin: 30px;
+    }
+        
+        
+    
+   
+    }
+        
+    }
+    
