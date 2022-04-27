@@ -21,34 +21,10 @@ a:active{
     font-size: 45px;
 }
 
-.home-nav{
-    height: 100px;
-    background-color:black ;
-
-}
-.home-nav ul{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 25px 30px;
-    padding: 20px;
 
 
-}
-.home-nav li{
-    color: grey;
-    border: solid 1px wheat ;
-    background-color:black ;
-    padding: 10px;
-    transition: all 0.5s ease-in-out;
-    
-}
-.home-nav li:hover{
-    background-color:darkred;
-    color: white;
-    border: solid white;
-    text-decoration: none;
+
+
 
 }
 
@@ -121,27 +97,30 @@ font-family: 'Roboto', sans-serif;
         grid-template-rows: 1fr 3fr;
     }   
 
-    .hombre-header{
-        background-image: url(MULTIMEDIA/header-hombre.jpg);
-        height: 800px;
-        background-size: cover;
-        display:flex ;
-        flex-direction: row;
-        color: bisque;
-        grid-area: header;
+   
 
-        
+    .hombre-header{
+        grid-area: header;
+        background-color: bisque;
+        text-align: center;
     }
     .hombre-header h1{
         font-size: 100px;
-        text-decoration: underline 1px;
-        margin: 40px 60px;
-    }
+    } 
     .hombre-header h2{
         font-size: 80px;
-        margin : 150px 300px;
-        color: black;
-        text-decoration: underline ;
+        animation-name: movimiento-uno;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+
+    }
+    @keyframes movimiento-uno{
+        50%{ 
+            color: white   }
+        75%{
+            color: grey;
+        }
     }
 
     .hombre-nav{
@@ -204,9 +183,12 @@ font-family: 'Roboto', sans-serif;
         height: 450px;
         width: 400px;
         margin: 20px;
-   
+        transition: all 1s ease-in-out
         
-     
+    }
+    .div-prendas-imagenes:hover{
+        height: 550px;
+        width: 500px;
     }
     .div-prendas{
         text-align: center;
@@ -257,12 +239,4 @@ font-family: 'Roboto', sans-serif;
 
 
 
-    @media screen and (max-width:1150px) {
-        .home-aside-div img {
-            height: 200px;
-            width: 200px;
-
-        }
-        
-    }
     
