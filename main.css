@@ -57,112 +57,58 @@ a:active{
 
 
     
-}
-
-
-
-
-
-
-
-
-
-.home-main{
-    background-color: wheat ;
+.fs-1{
+    font-size: 130px  !important ;
+    color: bisque;
+    font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;
     
 }
 
-.home-main-section{
-   
-    width: 1650px;
-    height: 900px;
-    background-image: url(MULTIMEDIA/skate-header.avif);
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
 
-}
-.home-main-section-div1{
 
-    font-size: 80PX;
-    color: white;
-    text-align: left;
-    padding: 100px;
+
+
+
+
+
+
+
+
     
 
-}
-.home-main-section-div2 ul{
-    color: white;
-    font-size: 35px;
-    display: flex;
-    flex-direction: column;
+  
+
     
-}
-    .home-main-section-div2 li{
-        border: solid  white;
-        width: 30vh;
-        
-       }
-
-
-    .home-aside{
-        height: 800px;
-        background-color: black;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        padding: 10px;
-        border: 20px 40px;
-        justify-content: space-evenly;
-        text-decoration: overline solid 3px;
-        color: white;
-    }
-
-    .home-aside-div1{
-        transform: scale(2px);
-    }
-
-    .home-aside-div1 img{
-        height: 500px;
-        width: 500px;
-       
-    }
-    .home-aside-div1:hover{
-        transform: scale(2px);
-     ;
-    }
-
-    .home-aside-div2 img{
-        height: 150px;
-        width: 200px;
-    }
-
     .home-footer{
-        display: flex;
-        flex-direction: column;
-        
         background-color: black;
         text-align: center;
-      
+        display: flex;
+        flex-direction: column;
+        color: bisque;
+
+        
     }
+    .home-footer:hover{
+        background-color: bisque;
+        color: black;
+    }
+
     .home-footer h2{
         font-size: 50px;
-        color: lemonchiffon;
+        
         text-decoration: underline;
 
     }
     .home-footer p{
         font-size: 18px;
-        color: white;
+        
     }
 
    
 
     }
-    .home-footer:hover{
-        font-weight: 300;
-            background-color: red;
-            font-size: 50px;
+   
             
     }
     .contenedor-hombre{
@@ -288,6 +234,35 @@ a:active{
     
    
     }
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width:1150px) {
+        .home-aside-div img {
+            height: 200px;
+            width: 200px;
+
+        }
         
     }
     
