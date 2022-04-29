@@ -56,7 +56,11 @@ font-family: 'Roboto', sans-serif;
 
 
 
-
+.img-fluid{
+    height: 200px;
+    width: 200px !important;
+    margin: 10px;
+}
 
 
     
@@ -157,9 +161,12 @@ font-family: 'Roboto', sans-serif;
 
     .hombre-aside{
         grid-area: aside;
+        display:flex ;
+        flex-direction: row;
     }
     .hombre-footer{
         grid-area: footer;
+        
     }
 
     .hombre-header div ul{
@@ -185,18 +192,18 @@ font-family: 'Roboto', sans-serif;
         flex-direction: row;
         justify-content: space-around;
         margin: 50px;
-        border: solid 2px;
+        
     }
     .div-prendas-imagenes{
-        height: 450px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
         margin: 20px;
         transition: all 1s ease-in-out
         
     }
     .div-prendas-imagenes:hover{
-        height: 550px;
-        width: 500px;
+        height: 450px;
+        width: 400px;
     }
     .div-prendas{
         text-align: center;
@@ -223,9 +230,82 @@ font-family: 'Roboto', sans-serif;
         
     
    
+    @media screen and (max-width: 1208px){
+        .div-prendas-imagenes{
+            
+                height: 200px;
+                width: 200px;
+                margin: 20px;
+       }
     }
+
+    @media screen and (max-width: 901px){
+
+    .hombre-main-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 70px;
         
     }
+    .div-prendas-imagenes{
+        height: 350px;
+        width: 350px;
+        border: solid 3px;
+    }
+    .hombre-aside ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        justify-content: space-around;
+        text-align: center;
+        color: black;
+        font-size: 25px;
+        border: solid 2px ;
+    }
+    .hombre-aside li{
+        padding: 20px;
+    }
+
+    .img-fluid{
+        height: 150px;
+        width: 150px
+    }
+}
+
+@media screen and (max-width: 778px){
+    .hombre-aside{
+       
+        display:flex ;
+        flex-direction: column;
+
+    }
+}
+
+
+@media screen and (max-width: 517px){
+
+    .div-prendas-imagenes{
+        height:230px ;
+        width: 230px;
+        margin: 20px;
+    }
+
+    .hombre-main-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 20px;
+    
+    }
+    .hombre-aside ul{
+       margin: 15px;
+       border: solid;
+       color: black;
+    }
+    
+        
+}
 
 
 
