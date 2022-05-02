@@ -306,6 +306,13 @@ font-family: 'Roboto', sans-serif;
     
         
 }
+ 
+
+.main-contacto section{
+    display: flex;
+    justify-items: center;
+    padding: 25px;
+}
 
 
 
