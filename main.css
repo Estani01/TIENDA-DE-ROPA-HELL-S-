@@ -56,10 +56,8 @@ font-family: 'Roboto', sans-serif;
 
 
 
-.img-fluid{
-    height: 200px;
-    width: 200px !important;
-    margin: 10px;
+.home-aside{
+    margin: 20px 10px;
 }
 
 
@@ -127,13 +125,7 @@ font-family: 'Roboto', sans-serif;
         animation-timing-function: ease-in-out;
 
     }
-    @keyframes movimiento-uno{
-        50%{ 
-            color: white   }
-        75%{
-            color: grey;
-        }
-    }
+    
 
     .hombre-nav{
         
@@ -264,7 +256,7 @@ font-family: 'Roboto', sans-serif;
         border: solid 2px ;
     }
     .hombre-aside li{
-        padding: 20px;
+        padding: px;
     }
 
     .img-fluid{
@@ -303,6 +295,10 @@ font-family: 'Roboto', sans-serif;
        border: solid;
        color: black;
     }
+    .div-prendas-imagenes:hover{
+        height: 300px;
+        width: 280px;
+        
     
         
 }
