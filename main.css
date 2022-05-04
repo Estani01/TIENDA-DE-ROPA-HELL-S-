@@ -16,14 +16,16 @@ a:active{
 
 .home-header{
     grid-area: header;
-    background-color: bisque;
+    background-color: black;
     text-align: center;
 }
 .home-header h1{
     font-size: 100px;
+    color: beige;
 } 
 .home-header h2{
-    font-size: 80px;
+    font-size: 40px;
+    color: beige;
     animation-name: movimiento-uno;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -52,7 +54,10 @@ font-family: 'Roboto', sans-serif;
 
 
 
+.carousel-item img{
+    height: 600px;
 
+}
 
 
 
@@ -111,11 +116,12 @@ font-family: 'Roboto', sans-serif;
 
     .hombre-header{
         grid-area: header;
-        background-color: bisque;
+        background-color: black;
         text-align: center;
     }
     .hombre-header h1{
         font-size: 100px;
+        color: white;
     } 
     .hombre-header h2{
         font-size: 80px;
@@ -125,6 +131,10 @@ font-family: 'Roboto', sans-serif;
         animation-timing-function: ease-in-out;
 
     }
+    @keyframes movimiento-uno{
+        50% { color:red ;}
+    }
+    
     
 
     .hombre-nav{
@@ -143,7 +153,7 @@ font-family: 'Roboto', sans-serif;
         padding: 10px;
         margin: 10px;
         border: solid ;
-        background-color: black;
+        
     }
 
     .hombre-main{
@@ -218,6 +228,11 @@ font-family: 'Roboto', sans-serif;
     .hombre-aside li{
         margin: 30px;
     }
+    .section-mapa{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    }
         
         
     
@@ -272,6 +287,8 @@ font-family: 'Roboto', sans-serif;
         flex-direction: column;
 
     }
+    .carousel-item img{
+        height: 400px;}
 }
 
 
@@ -309,6 +326,9 @@ font-family: 'Roboto', sans-serif;
     justify-items: center;
     padding: 25px;
 }
+
+.carousel-item img{
+    height: 300px;}
 
 
 
